@@ -48,9 +48,17 @@ command `composer create-project laravel/laravel <project-name> --prefer-dist`.
 
 Solution:
 
-* Mcrypt PHP extension required?
+* Mcrypt PHP extension required ?
 
-     : Type `php5enmod mcrypt` to enable and `php -i | grep mcrypt` for check mcrypt
+    : Type `php5enmod mcrypt` to enable and `php -i | grep mcrypt` for check mcrypt
+     
+* Error in exception handler ?
+
+    : `chmod 777 <project-name>/app/storage/*`
+    
+* Does not working Router ?
+
+    : make `AllowOverride` to `All` (from `None`) at apache configure file.
 
 #### Reference URLs
 
