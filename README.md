@@ -56,4 +56,5 @@ writen down in korean.
 
 * Laravel 4 - http://laravel.com/docs/4.2/quick
 * APM setup - http://blog.lael.be/post/73
-* Composer  - http://opentutorials.org/course/62/5221
+* Composer - http://opentutorials.org/course/62/5221
+* Composer? - http://haruair.com/blog/1860
