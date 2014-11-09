@@ -51,6 +51,8 @@ Solution:
 * Mcrypt PHP extension required ?
 
     : Type `php5enmod mcrypt` to enable and `php -i | grep mcrypt` for check mcrypt
+    
+    : If you use CentOS, see `php -m | grep imap` to check for module or install it
      
 * Error in exception handler ?
 
